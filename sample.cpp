@@ -16,7 +16,7 @@ int main() {
   // Perform Robust PCA
   sp::ml::robust_pca(D, A, E);
   std::cout << "Estimated row rank matrix: A = \n" << A << std::endl;
-  std::cout << "Estimated sparse rank matrix: E = \n" << E << std::endl;
+  std::cout << "Estimated sparse matrix: E = \n" << E << std::endl;
 
   std::cout << "Reconstructed matrix: A + E =:\n" << A + E << std::endl;
 
